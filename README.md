@@ -25,7 +25,8 @@ The repository is organized into several key modules, each of which plays a spec
      - A test for sparse matrices (with sparsity levels 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 and 0.9).
      - A comprehensive test that measures both execution time and memory usage.
    - Results are stored in JSON format for further analysis.
-   
+For a better understanding, please refer to the paper.
+
 ### 2. **MatrixMultiplicationFile Module**
    - Allows for matrix multiplication using matrices loaded from files, particularly with the COO format.
    - Tracks both execution time and memory usage for each matrix multiplication operation.
