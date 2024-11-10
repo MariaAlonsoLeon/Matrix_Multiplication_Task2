@@ -68,7 +68,7 @@ To use the project, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-repository-url.git
+   git clone https://github.com/MariaAlonsoLeon/Matrix_Multiplication_Task2
    ```
 2. Open the project in IntelliJ IDEA.
 3. Once the project is opened in IntelliJ, navigate to the `Benchmarking/` module or the module corresponding to the programming language you want to test.
