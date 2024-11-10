@@ -1,0 +1,4754 @@
+[
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.0,
+    "executionTime": 2.1298,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.0,
+    "executionTime": 40.805,
+    "memoryUsage": 13,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.0,
+    "executionTime": 2.5289,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.0,
+    "executionTime": 2.1189,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.0,
+    "executionTime": 2.2837,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.0,
+    "executionTime": 10.5942,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.0,
+    "executionTime": 2.5918,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.0,
+    "executionTime": 1.1281,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.0,
+    "executionTime": 262.6216,
+    "memoryUsage": 220,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.0,
+    "executionTime": 5.3792,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.0,
+    "executionTime": 2.5718,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.0,
+    "executionTime": 1.6559,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.0,
+    "executionTime": 22.1011,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.0,
+    "executionTime": 1.1766,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.0,
+    "executionTime": 31.9902,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.0,
+    "executionTime": 1223.3956,
+    "memoryUsage": 17,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.0,
+    "executionTime": 31.2078,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.0,
+    "executionTime": 10.9385,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.0,
+    "executionTime": 7.1924,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.0,
+    "executionTime": 7.9797,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.0,
+    "executionTime": 7.202,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.0,
+    "executionTime": 253.3704,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.0,
+    "executionTime": 8146.4712,
+    "memoryUsage": 98,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.0,
+    "executionTime": 229.3795,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.0,
+    "executionTime": 114.2001,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.0,
+    "executionTime": 58.5083,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.0,
+    "executionTime": 39.191,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.0,
+    "executionTime": 62.0195,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.0,
+    "executionTime": 2143.2085,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.0,
+    "executionTime": 113765.2943,
+    "memoryUsage": 219,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.0,
+    "executionTime": 3557.6969,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.0,
+    "executionTime": 4769.3106,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.0,
+    "executionTime": 1308.5302,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.0,
+    "executionTime": 2814.5794,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.0,
+    "executionTime": 1627.0661,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.0,
+    "executionTime": 91283.9962,
+    "memoryUsage": 36,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.0,
+    "executionTime": 1128242.165,
+    "memoryUsage": 269,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.0,
+    "executionTime": 28614.915,
+    "memoryUsage": 68,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.0,
+    "executionTime": 72957.5848,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.0,
+    "executionTime": 10052.5522,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.0,
+    "executionTime": 23225.7779,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.0,
+    "executionTime": 11369.3203,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 1.1693,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 68.8684,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 0.5537,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 0.4668,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 0.3074,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 3.769,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 0.4299,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 54.3636,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.1,
+    "executionTime": 23.5694,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 1.4531,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 78.5408,
+    "memoryUsage": 40,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 1.1755,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 0.2367,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 0.1586,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 6.2,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 0.6161,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 6.2555,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.2,
+    "executionTime": 1.5314,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 0.9434,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 76.4232,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 0.7286,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 0.3298,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 0.2273,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 2.756,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 0.3304,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 1.6577,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.3,
+    "executionTime": 0.9915,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 1.1683,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 61.4886,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 0.9782,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 0.4403,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 0.3023,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 3.7289,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 0.4188,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 1.4685,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.4,
+    "executionTime": 1.307,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 1.647,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 79.5179,
+    "memoryUsage": 36,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 0.7258,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 0.4666,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 0.2593,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 2.4618,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 0.3357,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 1.3426,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.5,
+    "executionTime": 0.7559,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 1.1743,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 91.2646,
+    "memoryUsage": 36,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 0.5104,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 0.2319,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 0.1578,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 2.0445,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 0.2151,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 0.5248,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.6,
+    "executionTime": 0.4933,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 0.9837,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 58.5429,
+    "memoryUsage": 36,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 0.5312,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 0.2585,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 0.158,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 4.1422,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 0.2244,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 0.3119,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.7,
+    "executionTime": 0.2908,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 0.801,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 64.0351,
+    "memoryUsage": 36,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 0.4916,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 0.4948,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 0.3185,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 1.8338,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 0.2374,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 0.2944,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.8,
+    "executionTime": 0.2008,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 0.4123,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 42.1779,
+    "memoryUsage": 36,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 0.2902,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 0.1475,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 0.1189,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 1.9857,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 0.1959,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 0.0905,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 64,
+    "sparsity": 0.9,
+    "executionTime": 0.077,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 4.2327,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 253.4653,
+    "memoryUsage": 56,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 6.3715,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 2.1601,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 1.7608,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 9.1489,
+    "memoryUsage": 12,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 2.5458,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 6.9174,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.1,
+    "executionTime": 5.3342,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 7.0086,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 279.4108,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 7.2696,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 1.6995,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 1.4617,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 3.6757,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 2.0171,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 4.751,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.2,
+    "executionTime": 4.9116,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 7.8545,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 267.8646,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 6.3094,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 1.6254,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 1.8163,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 3.4905,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 1.6203,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 4.1755,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.3,
+    "executionTime": 3.6844,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 8.4267,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 281.7775,
+    "memoryUsage": 51,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 3.3989,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 1.0245,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 1.5782,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 2.995,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 1.9548,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 3.523,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.4,
+    "executionTime": 3.1907,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 6.7218,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 248.021,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 3.5186,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 1.1095,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 0.8441,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 2.3486,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 1.8254,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 1.0605,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.5,
+    "executionTime": 1.2547,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 4.0958,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 257.2516,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 3.4701,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 1.3225,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 1.7486,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 2.4142,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 1.1615,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 0.8513,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.6,
+    "executionTime": 0.7319,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 4.5556,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 535.2565,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 6.2606,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 2.6766,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 2.5107,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 6.9839,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 1.8224,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 1.3507,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.7,
+    "executionTime": 1.1228,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 9.6305,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 500.1651,
+    "memoryUsage": 48,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 6.3081,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 2.5963,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 2.2459,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 4.7611,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 3.328,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 0.7762,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.8,
+    "executionTime": 0.7137,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 10.3117,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 310.6644,
+    "memoryUsage": 51,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 5.4975,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 1.7985,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 1.4554,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 4.6768,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 1.1821,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 0.2,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 128,
+    "sparsity": 0.9,
+    "executionTime": 0.2012,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 58.9324,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 2214.3981,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 40.1721,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 13.4082,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 8.7473,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 8.7301,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 15.8296,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 30.1924,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.1,
+    "executionTime": 21.4058,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 81.361,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 2283.9149,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 44.3205,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 40.7971,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 18.8824,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 29.8445,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 24.2033,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 62.5651,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.2,
+    "executionTime": 35.6287,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 89.8463,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 3251.8917,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 46.1391,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 16.0898,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 9.5356,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 7.1586,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 10.2461,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 34.3283,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.3,
+    "executionTime": 30.1168,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 61.6079,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 2296.2187,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 54.8016,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 26.231,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 18.6466,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 29.8505,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 20.6159,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 28.2115,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.4,
+    "executionTime": 17.8889,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 94.5903,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 2149.7832,
+    "memoryUsage": 144,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 52.3599,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 17.4065,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 10.906,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 45.2119,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 27.9365,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 21.7872,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.5,
+    "executionTime": 14.6296,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 93.1081,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 3431.5848,
+    "memoryUsage": 140,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 61.0957,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 33.3388,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 22.4097,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 32.0456,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 17.9887,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 13.178,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.6,
+    "executionTime": 6.8284,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 83.8899,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 3529.2632,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 51.3086,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 18.9803,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 18.7584,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 27.4001,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 26.5103,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 10.5499,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.7,
+    "executionTime": 7.4,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 92.4985,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 3603.1198,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 54.8341,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 27.6499,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 19.5612,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 30.174,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 19.4902,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 4.5853,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.8,
+    "executionTime": 3.392,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 83.4782,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 3624.9179,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 59.4677,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 33.3065,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 20.4732,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 34.1181,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 21.2846,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 2.1081,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 256,
+    "sparsity": 0.9,
+    "executionTime": 1.8666,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 723.0358,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 17922.9275,
+    "memoryUsage": 110,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 419.4525,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 192.6256,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 101.789,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 54.9479,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 108.4227,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 438.0295,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.1,
+    "executionTime": 403.3468,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 719.0192,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 24721.8724,
+    "memoryUsage": 15,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 426.4031,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 303.3737,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 161.9692,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 240.768,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 172.7053,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 467.1471,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.2,
+    "executionTime": 325.9125,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 650.804,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 19630.3209,
+    "memoryUsage": 36,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 433.7714,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 368.4063,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 171.2164,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 290.0929,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 193.813,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 372.6507,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.3,
+    "executionTime": 156.9912,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 488.3764,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 20975.8977,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 445.4577,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 330.3848,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 163.633,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 274.4612,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 192.1708,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 277.7823,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.4,
+    "executionTime": 144.2464,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 716.6851,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 24780.5595,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 453.6774,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 306.6945,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 177.1053,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 247.8339,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 101.7601,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 130.3503,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.5,
+    "executionTime": 118.007,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 668.5057,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 25613.1311,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 434.804,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 283.8573,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 158.7217,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 243.4656,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 133.7947,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 116.5201,
+    "memoryUsage": 12,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.6,
+    "executionTime": 74.2692,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 682.3916,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 21548.7473,
+    "memoryUsage": 14,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 434.3698,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 355.8889,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 174.0218,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 266.9971,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 176.7898,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 73.4611,
+    "memoryUsage": 12,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.7,
+    "executionTime": 44.1068,
+    "memoryUsage": 12,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 642.2546,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 23356.8973,
+    "memoryUsage": 12,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 428.5723,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 310.7094,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 169.4676,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 245.0662,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 167.4382,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 30.0448,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.8,
+    "executionTime": 24.5388,
+    "memoryUsage": 12,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 642.0187,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 25497.8953,
+    "memoryUsage": 51,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 411.7304,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 323.7321,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 158.676,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 250.4373,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 176.7974,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 10.3931,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 512,
+    "sparsity": 0.9,
+    "executionTime": 7.8892,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 5133.9125,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 123395.0228,
+    "memoryUsage": 63,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 3076.6308,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 2108.1359,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 757.196,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 1666.2038,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 1485.6591,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 4824.1391,
+    "memoryUsage": 44,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.1,
+    "executionTime": 4842.5217,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 5780.9388,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 153942.9621,
+    "memoryUsage": 31,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 3859.4642,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 3526.5791,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 1482.6177,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 2022.9014,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 1561.7993,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 4651.0539,
+    "memoryUsage": 168,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.2,
+    "executionTime": 3674.8418,
+    "memoryUsage": 172,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 5945.1308,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 163263.0683,
+    "memoryUsage": 174,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 3778.8783,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 4102.6944,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 1357.1303,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 2178.5266,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 1538.8416,
+    "memoryUsage": 4,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 3705.3182,
+    "memoryUsage": 124,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.3,
+    "executionTime": 2758.4296,
+    "memoryUsage": 128,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 5184.4482,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 173767.463,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 3544.1506,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 2942.691,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 1455.3956,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 1978.4086,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 1244.0942,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 2737.7504,
+    "memoryUsage": 112,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.4,
+    "executionTime": 1732.4042,
+    "memoryUsage": 116,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 5405.0089,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 176840.7545,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 3557.3992,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 2786.185,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 1335.3983,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 2013.1635,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 1612.2307,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 1791.8297,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.5,
+    "executionTime": 1268.4853,
+    "memoryUsage": 92,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 5569.6909,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 174975.6323,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 3548.2546,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 3524.3933,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 1493.6377,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 2160.0192,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 1581.7851,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 1390.9692,
+    "memoryUsage": 80,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.6,
+    "executionTime": 709.9729,
+    "memoryUsage": 80,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 5827.3117,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 154556.1415,
+    "memoryUsage": 194,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 3515.0597,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 3812.2616,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 1362.0193,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 2292.7466,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 1075.4037,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 589.7315,
+    "memoryUsage": 48,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.7,
+    "executionTime": 228.1478,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 4295.3482,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 173651.6682,
+    "memoryUsage": 101,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 3622.5935,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 3374.1232,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 1404.1932,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 1972.5698,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 987.1958,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 201.5451,
+    "memoryUsage": 40,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.8,
+    "executionTime": 129.8419,
+    "memoryUsage": 36,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 5468.6329,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 178607.1501,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 3771.6785,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 3433.9053,
+    "memoryUsage": 8,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 1416.0654,
+    "memoryUsage": 16,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 2205.3737,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 1508.7243,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 74.4543,
+    "memoryUsage": 24,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 1024,
+    "sparsity": 0.9,
+    "executionTime": 45.9896,
+    "memoryUsage": 20,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 76387.6889,
+    "memoryUsage": 27,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 1163981.1634,
+    "memoryUsage": 321,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 28455.6055,
+    "memoryUsage": 68,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 75753.6888,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 12831.6967,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 27635.1202,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 12274.4119,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 102400.7243,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.1,
+    "executionTime": 40235.3477,
+    "memoryUsage": 531,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 71836.1986,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 980192.6086,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 29137.4726,
+    "memoryUsage": 68,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 62358.1341,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 9313.3074,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 23835.675,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 9631.5045,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 75859.8727,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.2,
+    "executionTime": 20871.6802,
+    "memoryUsage": 22,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 70468.9842,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 1109370.5503,
+    "memoryUsage": 257,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 27587.8658,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 72333.3093,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 11273.3597,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 18094.6766,
+    "memoryUsage": 56,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 5619.3885,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 50472.1123,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.3,
+    "executionTime": 17846.2569,
+    "memoryUsage": 6,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 67207.2503,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 612365.2134,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 18330.658,
+    "memoryUsage": 68,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 80303.354,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 5810.3262,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 9935.1499,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 6584.9662,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 28545.5947,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.4,
+    "executionTime": 8040.0426,
+    "memoryUsage": 312,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 61565.7478,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 463755.58,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 18443.2693,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 74826.208,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 5790.7411,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 9271.4437,
+    "memoryUsage": 56,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 6605.527,
+    "memoryUsage": 28,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 20302.5484,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.5,
+    "executionTime": 6970.1591,
+    "memoryUsage": 283,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 63064.5409,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 475028.2034,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 18297.6547,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 97081.16,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 5323.5137,
+    "memoryUsage": 68,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 9272.3542,
+    "memoryUsage": 52,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 6541.9874,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 10990.3399,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.6,
+    "executionTime": 4583.4386,
+    "memoryUsage": 210,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 56788.5491,
+    "memoryUsage": 33,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 625172.8499,
+    "memoryUsage": 386,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 20847.4669,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 84458.4087,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 6205.2749,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 9427.4554,
+    "memoryUsage": 56,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 7482.0024,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 7012.7623,
+    "memoryUsage": 264,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.7,
+    "executionTime": 3112.1391,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 60757.7923,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 713582.4787,
+    "memoryUsage": 0,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 20384.8201,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 87799.9502,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 5903.1783,
+    "memoryUsage": 64,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 9628.7922,
+    "memoryUsage": 56,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 6733.0002,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 2628.0179,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.8,
+    "executionTime": 1273.0232,
+    "memoryUsage": 192,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Basic",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 66918.8264,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Strassen",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 894580.3728,
+    "memoryUsage": 580,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Optimized (Cache)",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 21376.7852,
+    "memoryUsage": 42,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Winograd",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 76939.9973,
+    "memoryUsage": 32,
+    "isEfficientTime": false,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Row-Column Major",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 12400.8044,
+    "memoryUsage": 14,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Parallel",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 29091.4517,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "Block",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 13648.2842,
+    "memoryUsage": 32,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSC",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 1021.5916,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  },
+  {
+    "methodName": "CSR",
+    "matrixSize": 2048,
+    "sparsity": 0.9,
+    "executionTime": 548.2604,
+    "memoryUsage": 0,
+    "isEfficientTime": true,
+    "isEfficientMemory": true
+  }
+]
