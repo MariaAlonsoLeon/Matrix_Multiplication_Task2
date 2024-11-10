@@ -22,7 +22,7 @@ The repository is organized into several key modules, each of which plays a spec
 ### 1. **Benchmarking Module**
    - This module contains three benchmark tests:
      - A test for dense matrices.
-     - A test for sparse matrices (with sparsity levels 0.7, 0.8, and 0.9).
+     - A test for sparse matrices (with sparsity levels 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 and 0.9).
      - A comprehensive test that measures both execution time and memory usage.
    - Results are stored in JSON format for further analysis.
    
