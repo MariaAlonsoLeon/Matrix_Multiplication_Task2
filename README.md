@@ -1,6 +1,6 @@
 # Matrix Multiplication Benchmarking Project
 
-This project focuses on benchmarking the performance of various matrix multiplication algorithms. The objective is to evaluate the execution time, memory usage, and CPU utilization of algorithms across different matrix sizes and sparsity levels. The performance is tested using both dense and sparse matrices, simulating real-world computational challenges in Big Data applications.
+This project focuses on benchmarking the performance of various matrix multiplication algorithms. The objective is to evaluate the execution time, memory usage of algorithms across different matrix sizes and sparsity levels. The performance is tested using both dense and sparse matrices, simulating real-world computational challenges in Big Data applications.
 
 ## Cover Page:
 
